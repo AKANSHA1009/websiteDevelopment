@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');   
+
+body{
+background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:'ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+     }
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    width: 70%;
+}
+
+
+.profile {
+    text-align: center;
+    margin-top:1.2px; /* Adjust margin as needed */
+    padding: 1px;
+    background-color: black;
+    width:30%;
+}
+  
+  .profile1 {
+    margin-bottom: 4px; /* Adjust margin as needed */
+  }
+  
+  #brand {
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px; /* Adjust margin as needed */
+  }
+  
+  button {
+    padding: 2px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0; /* Change color on hover as desired */
+  }
+  
+  .pro1 {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .pro1:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+/* .profile{
+    display: flex;
+    justify-items: flex-end;
+    align-items: right;
+    background-color: brown;
+    width:100vh;
+    padding-right:0.6rem;
+       
+}
+
+.profile1{
+    padding: 0.6px;
+}
+
+.pro1{
+    padding: 0.3rem;
+} */
+
+
+nav ul li{
+    padding: 0 12px;
+}
+
+ /* nav div  [type=text] {
+    display: flex;    
+    align-items:  right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 68px;
+      } */
+
+
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+    padding: 0 8px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 80%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('coverimage.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+    font-size: 34px;
+} 
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 150vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color:honeydew;
+    width: 155%;
+    color:black;
+    margin: 12px 0;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 23px;
+    overflow: hidden;
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 23px ;
+     border-radius: 34px;
+}
+.timeSpan{
+    margin:0 px;
+    padding: 0 px;
+}
+
+.timeSpan i{
+    cursor: pointer;
+}
+
+.songitemContainer{
+    margin-top: 45px;
+}
